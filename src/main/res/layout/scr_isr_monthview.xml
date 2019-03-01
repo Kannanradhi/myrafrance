@@ -1,0 +1,230 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg_dim_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/SCREEN_HEADER"
+                layout="@layout/titlebar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wrapper_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="9"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/buttonlayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/prevMonth"
+                    android:layout_width="40dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/left_arrow"></ImageView>
+
+                <TextView
+                    android:id="@+id/currentMonth"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000"></TextView>
+
+                <ImageView
+                    android:id="@+id/nextMonth"
+                    android:layout_width="40dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/right_arrow"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFF">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:stretchColumns="*">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFF"
+                            android:gravity="center"
+                            android:padding="1dp"
+                            android:text="S"
+                            android:textColor="@color/iSteerColor1"
+                            android:textSize="17sp" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFF"
+                            android:gravity="center"
+                            android:padding="1dp"
+                            android:text="M"
+                            android:textColor="@color/iSteerColor1"
+                            android:textSize="17sp" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFF"
+                            android:gravity="center"
+                            android:padding="1dp"
+                            android:text="T"
+                            android:textColor="@color/iSteerColor1"
+                            android:textSize="17sp" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFF"
+                            android:gravity="center"
+                            android:padding="1dp"
+                            android:text="W"
+                            android:textColor="@color/iSteerColor1"
+                            android:textSize="17sp" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFF"
+                            android:gravity="center"
+                            android:padding="1dp"
+                            android:text="T"
+                            android:textColor="@color/iSteerColor1"
+                            android:textSize="17sp" />
+                        android:id="@+id/tv_tabmenu1"
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFF"
+                            android:gravity="center"
+                            android:padding="1dp"
+                            android:text="F"
+                            android:textColor="@color/iSteerColor1"
+                            android:textSize="17sp" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFF"
+                            android:gravity="center"
+                            android:padding="1dp"
+                            android:text="S"
+                            android:textColor="@color/iSteerColor1"
+                            android:textSize="17sp" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="1dp"
+                android:numColumns="7"></GridView>
+
+            <!--
+            	<ListView
+       	    android:id="@+id/eventList"
+       	    android:layout_width="match_parent"
+       	    android:layout_height="match_parent"
+       	    android:layout_margin="10dp"
+       	    android:divider="#A0A2A3"
+       	    android:dividerPadding="0dp"
+       	    android:padding="0dp" />
+            -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wrapper_list_c"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ListView
+                android:id="@+id/entryList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#A0A2A3"
+                android:dividerHeight="0.5dp"
+                android:dividerPadding="0dp"
+                android:padding="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/footer_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/SCREEN_FOOTER"
+                layout="@layout/bottombar" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

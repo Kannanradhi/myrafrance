@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">B2C SFA</string>
+    <string name="string_picker_title">STRING_PICKER_TITLE</string>
+    <string name="string_picker_dialog_values">STRING_PICKER_DIALOG_VALUES</string>
+    <string name="string_picker_type">STRING_PICKER_TYPE</string>
+    
+    <string name="purpose">Purpose</string>
+    <string name="objective">Objective</string>
+    <string name="premise">Premise</string>
+    <string name="strategy">Strategy</string>
+    <string name="anticipate">Anticipate</string>
+    <string name="action_hint">Next Action (Enter the future anticipate required after the visit)</string>
+    <string name="momeet">Minutes of Meet</string>
+    <string name="momeet_hint">Minutes of Meet (Enter your discussion with the customer)</string>
+    <string name="admin">Admin</string>
+    <string name="actions">Actions</string>
+    <string name="orders">Order</string>
+    <string name="collection_report">Collection</string>
+    <string name="visits">Visit</string>
+    <string name="today">Today</string>
+    <string name="sales_mtd">Sales MTD</string>
+    <string name="collection_mtd">Collection MTD</string>
+    <string name="visits_mtd">Visits MTD</string>
+    <string name="beats">Beat Plan</string>
+    <string name="reports">Reports</string>
+    <string name="pending_orders">Pending Orders</string>
+    <string name="cheque_image">Cheque Photo</string>
+    <string name="location">Location</string>
+    <string name="order_taken">Order Taken</string>
+    <string name="product_display">Product Display</string>
+    <string name="promotion_activated">Promotion Activated</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="visited">Visited</string>
+    <string name="feedback">Feedback</string>
+    <string name="competition_pricing">Competition Pricing</string>
+    <string name="today_object">Today\'s Objective</string>
+    <string name="month_till_date">Month Till Date</string>
+    <string name="visit">Visit</string>
+    <string name="sale">Sale</string>
+    <string name="collection">Collection</string>
+    <string name="date">Date</string>
+    <string name="customer">Customer</string>
+    <string name="type">Type</string>
+    <string name="amount">Amount</string>
+    <string name="status">Status</string>
+    <string name="pending">Pending</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="not_good">Not Good</string>
+    <string name="good">Good</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="edit">Edit</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="receipt_no">Receipt No</string>
+    <string name="cheque_no">Cheque No</string>
+    <string name="cheque_date">Cheque Date</string>
+    <string name="bank">Bank</string>
+    <string name="remarks">Remarks</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="start_date_time">Start date/time</string>
+    <string name="start_date">Start date</string>
+    <string name="start_time">Start time</string>
+    <string name="end_date_time">End date/time</string>
+    <string name="end_date">End date</string>
+    <string name="end_time">End time</string>
+    <string name="save">Save</string>
+
+    <string name="settings_as_visited">Settings as Visited</string>
+    <string name="visited_message">Enter the future anticipate required after the visit</string>
+    <string name="visited_edittext">Next Action</string>
+    <string name="visited_yes">Plan Next Visit</string>
+    <string name="visited_no">No Next Visit</string>
+
+    <string name="cancel_visit">Cancel Visit</string>
+    <string name="map_bill">Map Bill</string>
+    <string name="cancel_message">Are you sure to make it is CANCELLED</string>
+    <string name="are_map_bill">Are you sure to map this Bill</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="cash">Cash</string>
+    <string name="cheque">Cheque</string>
+    <string name="payment_title">payment mode</string>
+    <string name="payment_message">Select payment mode</string>
+    <string name="action">Next Action</string>
+    <string name="customer_not_found">Customer not found</string>
+    <string name="saved_locally">Saved locally</string>
+    <string name="gst_no">GST No</string>
+    <string name="retry">Retry</string>
+    <string name="nointernet">No internet !</string>
+    <string name="nointernetdescription">No internet connections found. Check your connection or try again.</string>
+    <string name="internetForlocation">Internet connections required for change customer location. Check your connections or try again.</string>
+    <string name="internetForLogout">Internet connections required for logout. Check your connections or try again.</string>
+    <string name="today_mtd_incentive_points">Today\'s Incentive Points</string>
+    <string name="opening">Opening</string>
+    <string name="closing">Closing</string>
+
+    <string name="start">Start</string>
+    <string name="startday">Are you sure to start the day</string>
+    <string name="stop">Stop</string>
+    <string name="stopday">Are you sure to stop the day</string>
+    <string name="please_try_again">No internet Please try again...</string>
+    <string name="ok">OK</string>
+    <string name="checkin">CheckIn</string>
+    <string name="removed">Removed</string>
+
+</resources>

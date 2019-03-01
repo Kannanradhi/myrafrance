@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="11" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/SCREEN_HEADER"
+            layout="@layout/titlebar" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!--
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#F17200"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/login_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="0.5dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:hint=" Name"
+                    android:inputType="text"
+                    android:maxLength="50"
+                    android:textColor="#F17200"
+                    android:textColorHint="#F17200" />
+            </LinearLayout>
+
+            -->
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/iSteerColor1"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/login_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="0.5dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:maxLength="50"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/iSteerColor1"
+                    android:textColorHint="@color/iSteerColor1" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/iSteerColor1"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/login_pass"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="0.5dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLength="50"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/iSteerColor1"
+                    android:textColorHint="@color/iSteerColor1" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/iSteerColor1"
+                android:text="Login"
+                android:textColor="@color/White"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,674 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:2:1-216:12
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:2:1-216:12
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:2:1-216:12
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:2:1-216:12
+MERGED from [com.android.databinding:adapters:3.2.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/4b144ff3a4ecb13d92d41f88b787a9d9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.2.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/51590ab98b966210b5ef35d4ce71de21/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:multidex:1.0.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/8b20a3d30ac7455424e734dea1d96624/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/a553dbaa10b4cf7ee5d53d897b4d1a1d/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-plus:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-plus-16.0.0.aar/7c7796ac87cffb3caa77499735322126/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/69bda6eab53c483e9e536858c42193cb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/4cd46a0c700b68e91ec10fa63b7cd100/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:design:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8c113c3766446977999c1cce6f3521ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/bf27751f1597fdd6debffcd9b456a2f9/AndroidManifest.xml:2:1-15:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/lenovo/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/5674ef5e9e367c7c03ddcf74a344f170/AndroidManifest.xml:6:1-16:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6b8e60e921e295c9f913784ff99290cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/34061f757d636c8859cd0c4bab973476/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d3cf1a0790c9139c409d7d20802f721e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.paging:runtime:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0386fc48aaea20d700fba00d82f98988/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/465bdea22ffa336498394a68b1cd8b8b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/9c038571008bd6944d10029e5475f9d0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29e726a6e7c41f5f54c0b4cc498b8a57/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/da8e964721bb7ac43a8a0233949f7d74/AndroidManifest.xml:15:1-21:12
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/7eea98458a75a6efdb0918ca5da7333d/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.volley:volley:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/3f1fafc23de8851e84964993ff0c925a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:transition:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/ab7203824a2807fd914af325016969c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-audience:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-audience-16.0.0.aar/f3abbf42a6412c46fb1377a6ceca1a8d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/0aaa9624d8a749d3d37c36e7f0bb9e48/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/45e56d221498b3aecf1b95f4624eb16c/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/f14d3df0a6dd8b04b98b2facbccc51dc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f84358e24aab395caa3a68022bddb90f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/39a618e00aa68cf54b14ea58f839dd06/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/4b8c4d6b0ce565097aedf7f79a4eb07a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ba37d95cb494e663080be0fd146bdb28/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/744dd5f10a8536e201ae3fdc665e4c90/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3569df6f1c572e20cbb20c3ea5354ccf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/f630977cd1b3d8932fb640c078bd424b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/d1852dc9c7c2e9710331ec490664c533/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c60bd4e5799091ec7c5ba16845e85dae/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/484d941ec5ab5be22b7c4c2a53fbea12/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/5056afe5cb2822b71fe4358dace004da/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/6600011d3307d50e657c470e3eb70410/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/26d815eebcf2b3e24348119dde0c121e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d4e708becce83e0570430e3b048c5120/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8a9ec92dfce22219fe9593b7df4d721c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/12d07292f57edabf91e7b01a97250b77/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/1f9f5075137c79c635b48dddaf0acfac/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /home/lenovo/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/a644e34ffafa5f2635e0a7845c8ef741/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /home/lenovo/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/00a13abe3a34d1b7eb30d3baa06dbcac/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/9067aec0760ce685b56ccabb15de9531/AndroidManifest.xml:22:1-33:12
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:2:1-216:12
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:2:1-216:12
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:2:1-216:12
+	package
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+		INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:2:1-216:12
+		INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:4:5-44
+	android:versionCode
+		INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:2:1-216:12
+		INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:6:5-12:57
+	android:largeScreens
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:8:9-36
+	android:smallScreens
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:9:9-37
+	android:xlargeScreens
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:12:9-37
+	android:resizeable
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:10:9-34
+	android:anyDensity
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:7:9-34
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:15:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:17:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:18:5-98
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:18:22-95
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:21:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:22:5-66
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:22:22-63
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:23:5-72
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:23:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:24:5-73
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:24:22-70
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:25:5-71
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:25:22-68
+uses-permission#android.permission.INTERNET
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/4cd46a0c700b68e91ec10fa63b7cd100/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/4cd46a0c700b68e91ec10fa63b7cd100/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:24:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/0aaa9624d8a749d3d37c36e7f0bb9e48/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/0aaa9624d8a749d3d37c36e7f0bb9e48/AndroidManifest.xml:24:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/1f9f5075137c79c635b48dddaf0acfac/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/1f9f5075137c79c635b48dddaf0acfac/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /home/lenovo/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/a644e34ffafa5f2635e0a7845c8ef741/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /home/lenovo/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/a644e34ffafa5f2635e0a7845c8ef741/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /home/lenovo/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/00a13abe3a34d1b7eb30d3baa06dbcac/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /home/lenovo/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/00a13abe3a34d1b7eb30d3baa06dbcac/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/9067aec0760ce685b56ccabb15de9531/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/9067aec0760ce685b56ccabb15de9531/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:26:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:27:22-77
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:29:22-65
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:30:5-85
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:30:22-82
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:31:5-82
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/4cd46a0c700b68e91ec10fa63b7cd100/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/4cd46a0c700b68e91ec10fa63b7cd100/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/0aaa9624d8a749d3d37c36e7f0bb9e48/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/0aaa9624d8a749d3d37c36e7f0bb9e48/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:31:22-79
+uses-permission#com.isteer.salesexec.permission.C2D_MESSAGE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:42:5-83
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:42:22-80
+application
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:44:5-214:19
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/a553dbaa10b4cf7ee5d53d897b4d1a1d/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/a553dbaa10b4cf7ee5d53d897b4d1a1d/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-plus:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-plus-16.0.0.aar/7c7796ac87cffb3caa77499735322126/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-plus-16.0.0.aar/7c7796ac87cffb3caa77499735322126/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/69bda6eab53c483e9e536858c42193cb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/69bda6eab53c483e9e536858c42193cb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/4cd46a0c700b68e91ec10fa63b7cd100/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/4cd46a0c700b68e91ec10fa63b7cd100/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:30:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/bf27751f1597fdd6debffcd9b456a2f9/AndroidManifest.xml:13:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/bf27751f1597fdd6debffcd9b456a2f9/AndroidManifest.xml:13:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/7eea98458a75a6efdb0918ca5da7333d/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/7eea98458a75a6efdb0918ca5da7333d/AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.volley:volley:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/3f1fafc23de8851e84964993ff0c925a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/3f1fafc23de8851e84964993ff0c925a/AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-audience:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-audience-16.0.0.aar/f3abbf42a6412c46fb1377a6ceca1a8d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-audience:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-audience-16.0.0.aar/f3abbf42a6412c46fb1377a6ceca1a8d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/0aaa9624d8a749d3d37c36e7f0bb9e48/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/0aaa9624d8a749d3d37c36e7f0bb9e48/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/45e56d221498b3aecf1b95f4624eb16c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/45e56d221498b3aecf1b95f4624eb16c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/f14d3df0a6dd8b04b98b2facbccc51dc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/f14d3df0a6dd8b04b98b2facbccc51dc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f84358e24aab395caa3a68022bddb90f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f84358e24aab395caa3a68022bddb90f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/39a618e00aa68cf54b14ea58f839dd06/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/39a618e00aa68cf54b14ea58f839dd06/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/4b8c4d6b0ce565097aedf7f79a4eb07a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/4b8c4d6b0ce565097aedf7f79a4eb07a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/1f9f5075137c79c635b48dddaf0acfac/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/1f9f5075137c79c635b48dddaf0acfac/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /home/lenovo/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/a644e34ffafa5f2635e0a7845c8ef741/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /home/lenovo/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/a644e34ffafa5f2635e0a7845c8ef741/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /home/lenovo/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/00a13abe3a34d1b7eb30d3baa06dbcac/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /home/lenovo/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/00a13abe3a34d1b7eb30d3baa06dbcac/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/9067aec0760ce685b56ccabb15de9531/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/9067aec0760ce685b56ccabb15de9531/AndroidManifest.xml:31:5-20
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:48:9-41
+	android:largeHeap
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:49:9-35
+	android:icon
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:47:9-44
+	android:allowBackup
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:46:9-36
+	android:theme
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:50:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:51:9-44
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:45:9-49
+uses-library#org.apache.http.legacy
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:52:9-87
+	android:required
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:52:61-85
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:52:23-60
+activity#com.isteer.b2c.activity.B2CLancher.B2CSplashScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:54:9-64:20
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:57:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:56:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:58:13-55
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:55:13-64
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:62:27-74
+activity#com.isteer.b2c.activity.B2CLancher.B2CNewMainActivity
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:65:9-69:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:67:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:69:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:66:13-67
+activity#com.isteer.b2c.activity.B2CLancher.B2CLoginScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:70:9-74:67
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:73:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:72:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:74:13-55
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:71:13-63
+activity#com.isteer.b2c.activity.counter_details.B2CLocateScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:75:9-79:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:78:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:77:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:79:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:76:13-83
+activity#com.isteer.b2c.activity.B2CLancher.B2CProductsCatalogue
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:80:9-84:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:83:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:82:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:84:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:81:13-83
+activity#com.isteer.b2c.activity.action.B2CAddTodaysBeat
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:85:9-90:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:88:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:87:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:90:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:86:13-61
+activity#com.isteer.b2c.activity.action.B2CCountersScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:92:9-96:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:95:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:94:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:96:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:93:13-76
+activity#com.isteer.b2c.activity.counter_details.B2CCounterDetailScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:97:9-102:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:101:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:100:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:102:13-52
+	android:configChanges
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:99:13-74
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:98:13-90
+activity#com.isteer.b2c.activity.counter_details.B2CPlaceOrderScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:103:9-107:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:106:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:105:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:107:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:104:13-87
+activity#com.isteer.b2c.activity.action.B2CPendingOrderScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:108:9-112:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:111:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:110:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:112:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:109:13-66
+activity#com.isteer.b2c.activity.action.B2CCollectionEntryScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:113:9-117:67
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:116:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:115:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:117:13-55
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:114:13-69
+activity#com.isteer.b2c.activity.reports.B2CCollectionSumScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:118:9-122:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:121:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:120:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:122:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:119:13-82
+activity#com.isteer.b2c.activity.calender.DSRMonthScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:124:9-128:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:127:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:126:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:128:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:125:13-75
+activity#com.isteer.b2c.activity.B2CLancher.DSRDayScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:129:9-133:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:132:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:131:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:133:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:130:13-61
+activity#com.isteer.b2c.activity.calender.DSREditProgScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:134:9-138:67
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:137:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:136:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:138:13-55
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:135:13-78
+activity#com.isteer.b2c.activity.calender.DSRAddProgScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:139:9-143:67
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:142:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:141:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:143:13-55
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:140:13-77
+activity#com.isteer.b2c.activity.B2CLancher.B2CCustSearchScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:144:9-148:67
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:147:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:146:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:148:13-55
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:145:13-68
+activity#com.isteer.b2c.activity.reports.B2CSyncScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:149:9-153:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:152:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:151:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:153:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:150:13-59
+activity#com.isteer.b2c.activity.reports.B2CAllOrderScreen
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:155:9-159:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:158:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:157:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:159:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:156:13-63
+activity#com.isteer.b2c.activity.reports.B2c_Report_visit
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:160:9-164:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:163:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:162:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:164:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:161:13-76
+activity#com.isteer.b2c.activity.reports.B2CCollectionMapBill
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:165:9-169:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:168:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:167:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:169:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:166:13-80
+activity#com.isteer.b2c.activity.reports.B2CInvoiceMapBill
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:170:9-174:64
+	android:screenOrientation
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:173:13-49
+	android:label
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:172:13-45
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:174:13-52
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:171:13-77
+receiver#com.isteer.b2c.receiver.AlarmReceiver
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:176:9-184:20
+	android:enabled
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:178:13-35
+	android:exported
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:179:13-37
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:177:13-65
+intent-filter#action:name:android.intent.action.TIME_TICK+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:180:13-183:29
+action#android.intent.action.TIME_TICK
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:181:17-74
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:181:25-71
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:182:17-79
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:182:25-76
+receiver#com.isteer.b2c.receiver.B2CConnectivityReceiver
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:185:9-190:20
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:185:19-81
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:186:13-189:29
+receiver#com.isteer.b2c.receiver.GcmBroadcastReceiver
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:191:9-199:20
+	android:permission
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:193:13-73
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:192:13-72
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.isteer.salesexec
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:194:13-198:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:195:17-81
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:195:25-78
+category#com.isteer.salesexec
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:197:17-65
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:197:27-62
+service#com.isteer.b2c.service.GcmIntentService
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:201:9-75
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:201:18-72
+meta-data#com.google.android.gms.version
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:203:9-204:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/4b8c4d6b0ce565097aedf7f79a4eb07a/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/4b8c4d6b0ce565097aedf7f79a4eb07a/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:204:13-66
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:203:20-65
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:206:9-208:71
+	android:value
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:208:13-68
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:207:13-62
+meta-data#io.fabric.ApiKey
+ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:211:9-213:72
+	android:value
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:213:13-69
+	android:name
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml:212:13-44
+uses-sdk
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:3.2.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/4b144ff3a4ecb13d92d41f88b787a9d9/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.2.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/4b144ff3a4ecb13d92d41f88b787a9d9/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.2.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/51590ab98b966210b5ef35d4ce71de21/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.2.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/51590ab98b966210b5ef35d4ce71de21/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:multidex:1.0.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/8b20a3d30ac7455424e734dea1d96624/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/8b20a3d30ac7455424e734dea1d96624/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/a553dbaa10b4cf7ee5d53d897b4d1a1d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/a553dbaa10b4cf7ee5d53d897b4d1a1d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-plus:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-plus-16.0.0.aar/7c7796ac87cffb3caa77499735322126/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-plus-16.0.0.aar/7c7796ac87cffb3caa77499735322126/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/69bda6eab53c483e9e536858c42193cb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/69bda6eab53c483e9e536858c42193cb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/4cd46a0c700b68e91ec10fa63b7cd100/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/4cd46a0c700b68e91ec10fa63b7cd100/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8c113c3766446977999c1cce6f3521ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8c113c3766446977999c1cce6f3521ce/AndroidManifest.xml:20:5-44
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/bf27751f1597fdd6debffcd9b456a2f9/AndroidManifest.xml:8:5-11:75
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/bf27751f1597fdd6debffcd9b456a2f9/AndroidManifest.xml:8:5-11:75
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/lenovo/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/5674ef5e9e367c7c03ddcf74a344f170/AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/lenovo/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/5674ef5e9e367c7c03ddcf74a344f170/AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6b8e60e921e295c9f913784ff99290cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6b8e60e921e295c9f913784ff99290cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/34061f757d636c8859cd0c4bab973476/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/34061f757d636c8859cd0c4bab973476/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d3cf1a0790c9139c409d7d20802f721e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d3cf1a0790c9139c409d7d20802f721e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0386fc48aaea20d700fba00d82f98988/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0386fc48aaea20d700fba00d82f98988/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/465bdea22ffa336498394a68b1cd8b8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/465bdea22ffa336498394a68b1cd8b8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/9c038571008bd6944d10029e5475f9d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/9c038571008bd6944d10029e5475f9d0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29e726a6e7c41f5f54c0b4cc498b8a57/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29e726a6e7c41f5f54c0b4cc498b8a57/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/da8e964721bb7ac43a8a0233949f7d74/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/da8e964721bb7ac43a8a0233949f7d74/AndroidManifest.xml:19:5-43
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/7eea98458a75a6efdb0918ca5da7333d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/7eea98458a75a6efdb0918ca5da7333d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/3f1fafc23de8851e84964993ff0c925a/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/3f1fafc23de8851e84964993ff0c925a/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:transition:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/ab7203824a2807fd914af325016969c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/ab7203824a2807fd914af325016969c8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-audience:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-audience-16.0.0.aar/f3abbf42a6412c46fb1377a6ceca1a8d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-audience:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-audience-16.0.0.aar/f3abbf42a6412c46fb1377a6ceca1a8d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/0aaa9624d8a749d3d37c36e7f0bb9e48/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/0aaa9624d8a749d3d37c36e7f0bb9e48/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/45e56d221498b3aecf1b95f4624eb16c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/45e56d221498b3aecf1b95f4624eb16c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/f14d3df0a6dd8b04b98b2facbccc51dc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/f14d3df0a6dd8b04b98b2facbccc51dc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f84358e24aab395caa3a68022bddb90f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f84358e24aab395caa3a68022bddb90f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/39a618e00aa68cf54b14ea58f839dd06/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/39a618e00aa68cf54b14ea58f839dd06/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/4b8c4d6b0ce565097aedf7f79a4eb07a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/4b8c4d6b0ce565097aedf7f79a4eb07a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ba37d95cb494e663080be0fd146bdb28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ba37d95cb494e663080be0fd146bdb28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/744dd5f10a8536e201ae3fdc665e4c90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/744dd5f10a8536e201ae3fdc665e4c90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3569df6f1c572e20cbb20c3ea5354ccf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3569df6f1c572e20cbb20c3ea5354ccf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/f630977cd1b3d8932fb640c078bd424b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/f630977cd1b3d8932fb640c078bd424b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/d1852dc9c7c2e9710331ec490664c533/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/d1852dc9c7c2e9710331ec490664c533/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c60bd4e5799091ec7c5ba16845e85dae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c60bd4e5799091ec7c5ba16845e85dae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/484d941ec5ab5be22b7c4c2a53fbea12/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/484d941ec5ab5be22b7c4c2a53fbea12/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/5056afe5cb2822b71fe4358dace004da/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/5056afe5cb2822b71fe4358dace004da/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/6600011d3307d50e657c470e3eb70410/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/6600011d3307d50e657c470e3eb70410/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/26d815eebcf2b3e24348119dde0c121e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/26d815eebcf2b3e24348119dde0c121e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d4e708becce83e0570430e3b048c5120/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d4e708becce83e0570430e3b048c5120/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8a9ec92dfce22219fe9593b7df4d721c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8a9ec92dfce22219fe9593b7df4d721c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/12d07292f57edabf91e7b01a97250b77/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/12d07292f57edabf91e7b01a97250b77/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/1f9f5075137c79c635b48dddaf0acfac/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.3.aar/1f9f5075137c79c635b48dddaf0acfac/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /home/lenovo/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/a644e34ffafa5f2635e0a7845c8ef741/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.9] /home/lenovo/.gradle/caches/transforms-1/files-1.1/beta-1.2.9.aar/a644e34ffafa5f2635e0a7845c8ef741/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /home/lenovo/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/00a13abe3a34d1b7eb30d3baa06dbcac/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] /home/lenovo/.gradle/caches/transforms-1/files-1.1/answers-1.4.2.aar/00a13abe3a34d1b7eb30d3baa06dbcac/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/9067aec0760ce685b56ccabb15de9531/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fabric-1.4.3.aar/9067aec0760ce685b56ccabb15de9531/AndroidManifest.xml:27:5-43
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.6.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/bf27751f1597fdd6debffcd9b456a2f9/AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+		INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+		INJECTED from /home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a35be6895bcd62535988014027dfebe/AndroidManifest.xml:28:9-32
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/7eea98458a75a6efdb0918ca5da7333d/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/7eea98458a75a6efdb0918ca5da7333d/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/7eea98458a75a6efdb0918ca5da7333d/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/7eea98458a75a6efdb0918ca5da7333d/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/7eea98458a75a6efdb0918ca5da7333d/AndroidManifest.xml:24:13-83
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.4.aar/42caa956ecec6075e8b9f70664f948f8/AndroidManifest.xml:13:13-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/45e56d221498b3aecf1b95f4624eb16c/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/45e56d221498b3aecf1b95f4624eb16c/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/45e56d221498b3aecf1b95f4624eb16c/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/45e56d221498b3aecf1b95f4624eb16c/AndroidManifest.xml:24:13-79

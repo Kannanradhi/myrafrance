@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/iv_check_stock"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/round_darkblue"
+            app:srcCompat="@drawable/stock"
+            android:padding="5dp"/>
+    </LinearLayout>
+        <EditText
+            android:id="@+id/listr_po_et_qty"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle_dark_blue"
+            android:fontFamily="@font/opensans_light"
+            android:gravity="center"
+            android:hint="Qty"
+            android:inputType="number"
+            android:maxLength="6"
+            android:padding="1dp"
+            android:singleLine="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/veryDrakGray"
+            android:textColorHint="@color/light_blue"
+            android:textSize="@dimen/text_size_xiv" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_add_order"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                app:srcCompat="@drawable/ic_add_circle_outline_black_24dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

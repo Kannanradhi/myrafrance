@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent_background"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:id="@+id/maintbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:background="@color/transparent_background"
+            android:gravity="center"
+            android:shrinkColumns="1,3"
+            android:stretchColumns="0,2,4" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@color/transparent_background"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/tv_tabmenu1"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/round_dialog"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text="Change Location"
+                    android:textColor="@color/veryDrakGray"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent_background" />
+
+                <TextView
+                    android:id="@+id/tv_tabmenu2"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/round_dialog"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="Add Collection"
+                    android:textColor="@color/veryDrakGray"
+                    android:textSize="15sp" />
+
+            </TableRow>
+            
+             <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@color/transparent_background"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/tv_tabmenu3"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/round_dialog"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="Phone Order"
+                    android:textColor="@color/veryDrakGray"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent_background" />
+
+                <TextView
+                    android:id="@+id/tv_tabmenu4"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/round_dialog"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="Counter Order"
+                    android:textColor="@color/veryDrakGray"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

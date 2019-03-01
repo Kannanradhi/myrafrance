@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/iSteerSalesB2C/iSteerSalesB2C.iml" filepath="$PROJECT_DIR$/iSteerSalesB2C/iSteerSalesB2C.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myrafrance.iml" filepath="$PROJECT_DIR$/myrafrance.iml" />
+    </modules>
+  </component>
+</project>

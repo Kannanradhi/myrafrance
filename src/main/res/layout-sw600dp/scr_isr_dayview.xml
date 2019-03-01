@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/header_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/SCREEN_HEADER"
+            layout="@layout/titlebar" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/dayview_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White" >
+
+        <LinearLayout
+            android:id="@+id/buttonlayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/prevDay"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/left_arrow" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/currentDate"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/nextDay"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/right_arrow" >
+            </ImageView>
+        </LinearLayout>
+
+        <!--
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/prevDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/left_arrow" />
+
+        <TextView
+            android:id="@+id/currentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#7d8082"
+            android:textSize="35px" />
+
+        <ImageView
+            android:id="@+id/nextDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        -->
+
+        <ViewFlipper
+            android:id="@+id/flipper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <ScrollView
+                    android:id="@+id/dayViewScroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:scrollbars="none" >
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout242"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:padding="0dp" >
+
+
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/am9_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+
+                            android:background="@drawable/nine" />
+
+                        <RelativeLayout
+                            android:id="@+id/am9_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/am9_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/am10_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/am9_line_events"
+                            android:background="@drawable/ten" />
+
+                        <RelativeLayout
+                            android:id="@+id/am10_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/am10_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/am11_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/am10_line_events"
+                            android:background="@drawable/eleven" />
+
+                        <RelativeLayout
+                            android:id="@+id/am11_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/am11_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/am12_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/am11_line_events"
+                            android:background="@drawable/twelve" />
+
+                        <RelativeLayout
+                            android:id="@+id/am12_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/am12_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm1_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/am12_line_events"
+                            android:background="@drawable/one_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm1_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm1_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm2_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pm1_line_events"
+                            android:background="@drawable/two_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm2_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm2_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm3_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pm2_line_events"
+                            android:background="@drawable/three_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm3_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm3_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm4_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pm3_line_events"
+                            android:background="@drawable/four_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm4_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm4_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm5_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pm4_line_events"
+                            android:background="@drawable/five_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm5_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm5_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm6_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pm5_line_events"
+                            android:background="@drawable/six_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm6_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm6_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm7_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pm6_line_events"
+                            android:background="@drawable/seven_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm7_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm7_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm8_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pm7_line_events"
+                            android:background="@drawable/eight_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm8_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm8_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm9_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pm8_line_events"
+                            android:background="@drawable/nine_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm9_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm9_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm10_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pm9_line_events"
+                            android:background="@drawable/ten_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm10_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm10_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp" >
+                        </RelativeLayout>
+
+                        <View
+                            android:minHeight="7dp"
+                            android:id="@+id/pm11_line"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pm10_line_events"
+                            android:background="@drawable/eleven_pm" />
+
+                        <RelativeLayout
+                            android:id="@+id/pm11_line_events"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pm11_line"
+                            android:longClickable="true"
+                            android:minHeight="40dp"
+                            android:padding="0dp">
+                        </RelativeLayout>
+                            <View
+                                android:minHeight="7dp"
+                                android:id="@+id/am_line"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/pm11_line_events"
+                                android:background="@drawable/am1" />
+
+                            <RelativeLayout
+                                android:id="@+id/am_line_events"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/am_line"
+                                android:longClickable="true"
+                                android:minHeight="40dp"
+                                android:padding="0dp" >
+                            </RelativeLayout>
+
+                            <View
+                                android:minHeight="7dp"
+                                android:id="@+id/am1_line"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/am_line_events"
+                                android:background="@drawable/one" />
+
+                            <RelativeLayout
+                                android:id="@+id/am1_line_events"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/am1_line"
+                                android:longClickable="true"
+                                android:minHeight="40dp"
+                                android:padding="0dp" >
+                            </RelativeLayout>
+
+                            <View
+                                android:minHeight="7dp"
+                                android:id="@+id/am2_line"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/am1_line_events"
+                                android:background="@drawable/two" />
+
+                            <RelativeLayout
+                                android:id="@+id/am2_line_events"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/am2_line"
+                                android:longClickable="true"
+                                android:minHeight="40dp"
+                                android:padding="0dp" >
+                            </RelativeLayout>
+
+                            <View
+                                android:minHeight="7dp"
+                                android:id="@+id/am3_line"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/am2_line_events"
+                                android:background="@drawable/three" />
+
+                            <RelativeLayout
+                                android:id="@+id/am3_line_events"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/am3_line"
+                                android:longClickable="true"
+                                android:minHeight="40dp"
+                                android:padding="0dp" >
+                            </RelativeLayout>
+
+                            <View
+                                android:minHeight="7dp"
+                                android:id="@+id/am4_line"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/am3_line_events"
+                                android:background="@drawable/four" />
+
+                            <RelativeLayout
+                                android:id="@+id/am4_line_events"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/am4_line"
+                                android:longClickable="true"
+                                android:minHeight="40dp"
+                                android:padding="0dp" >
+                            </RelativeLayout>
+
+                            <View
+                                android:minHeight="7dp"
+                                android:id="@+id/am5_line"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/am4_line_events"
+                                android:background="@drawable/five" />
+
+                            <RelativeLayout
+                                android:id="@+id/am5_line_events"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/am5_line"
+                                android:longClickable="true"
+                                android:minHeight="40dp"
+                                android:padding="0dp" >
+                            </RelativeLayout>
+
+                            <View
+                                android:minHeight="7dp"
+                                android:id="@+id/am6_line"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/am5_line_events"
+                                android:background="@drawable/six" />
+
+                            <RelativeLayout
+                                android:id="@+id/am6_line_events"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/am6_line"
+                                android:longClickable="true"
+                                android:minHeight="40dp"
+                                android:padding="0dp" >
+                            </RelativeLayout>
+
+                            <View
+                                android:minHeight="7dp"
+                                android:id="@+id/am7_line"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/am6_line_events"
+                                android:background="@drawable/seven" />
+
+                            <RelativeLayout
+                                android:id="@+id/am7_line_events"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/am7_line"
+                                android:longClickable="true"
+                                android:minHeight="40dp"
+                                android:padding="0dp" >
+                            </RelativeLayout>
+
+                            <View
+                                android:minHeight="7dp"
+                                android:id="@+id/am8_line"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/am7_line_events"
+                                android:background="@drawable/eight" />
+
+                            <RelativeLayout
+                                android:id="@+id/am8_line_events"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/am8_line"
+                                android:longClickable="true"
+                                android:minHeight="40dp"
+                                android:padding="0dp" >
+                            </RelativeLayout>
+
+                    </RelativeLayout>
+                </ScrollView>
+            </RelativeLayout>
+        </ViewFlipper>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/footer_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/SCREEN_FOOTER"
+            layout="@layout/bottombar" />
+    </LinearLayout>
+
+</LinearLayout>

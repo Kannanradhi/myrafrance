@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/very_light_gray" />
+
+        <TextView
+            android:fontFamily="@font/raleway_bold"
+            android:id="@+id/tv_tabmenu2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".1"
+            android:background="@drawable/rectangle_light_gray_leftcorner"
+            android:gravity="center"
+            android:hint="Date"
+            android:padding="1dp"
+            android:textColor="@color/Black"
+            android:textColorHint="@color/White"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/very_light_gray" />
+
+        <TextView
+            android:fontFamily="@font/raleway_bold"
+            android:id="@+id/tv_tabmenu3"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".1"
+            android:background="@color/light_gray"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/customer"
+            android:textColor="@color/White"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/very_light_gray" />
+
+        <TextView
+            android:fontFamily="@font/raleway_bold"
+            android:id="@+id/tv_tabmenu4"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".1"
+            android:background="@drawable/rectangle_light_gray_lrightcorner"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/status"
+            android:textColor="@color/White"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/very_light_gray" />
+
+
+        <TextView
+            android:fontFamily="@font/raleway_bold"
+            android:id="@+id/tv_tabmenu6"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".1"
+            android:background="@color/iSteerGrey"
+            android:gravity="center"
+            android:hint="Action"
+            android:padding="1dp"
+            android:textColor="@color/Black"
+            android:textColorHint="@color/White"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

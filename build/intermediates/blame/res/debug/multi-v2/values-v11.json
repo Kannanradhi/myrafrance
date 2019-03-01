@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/lenovo/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/bf27751f1597fdd6debffcd9b456a2f9/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,1044",
+                        "endLines": "18,35",
+                        "endColumns": "10,10",
+                        "endOffsets": "1039,2010"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent_background"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/SCREEN_HEADER"
+            layout="@layout/titlebar" />
+
+        <LinearLayout
+            android:id="@+id/dgdfh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_counter_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:scrollHorizontally="false"
+                    android:singleLine="false"
+                    android:text="Press Back button"
+
+                    android:textColor="@color/darkblue"
+                    android:textSize="18sp" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tinno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:fontFamily="@font/raleway"
+                            android:gravity="left|center"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:scrollHorizontally="false"
+                            android:singleLine="true"
+                            android:text="Balance Amount "
+                            android:textColor="@color/darkblue"
+                            android:textSize="@dimen/text_size_xvi" />
+
+                        <TextView
+                            android:id="@+id/txt_coll_bal_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_toRightOf="@+id/tinno"
+                            android:fontFamily="@font/opensans_light"
+                            android:gravity="left|center_vertical"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:scrollHorizontally="false"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/text_size_xvi"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:layout_weight=".2"
+                            android:fontFamily="@font/raleway"
+                            android:gravity="left|center"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:scrollHorizontally="false"
+                            android:singleLine="true"
+                            android:text="Phone "
+                            android:textColor="@color/darkblue"
+                            android:textSize="@dimen/text_size_xvi" />
+
+
+                        <TextView
+                            android:id="@+id/tv_contact_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:layout_toRightOf="@+id/tv1"
+                            android:layout_weight=".8"
+                            android:fontFamily="@font/opensans_light"
+                            android:gravity="left|center_vertical"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:scrollHorizontally="false"
+                            android:singleLine="true"
+                            android:textColor="@color/light_blue"
+                            android:textSize="@dimen/text_size_xvi" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_tabmenu1"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight=".2"
+                android:background="@color/light_gray"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                android:hint="Bill No"
+                android:padding="1dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/White"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/very_light_gray" />
+
+            <TextView
+                android:id="@+id/tv_tabmenu2"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight=".2"
+
+
+                android:background="@color/light_gray"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                android:hint="Date"
+                android:padding="1dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/White"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/very_light_gray" />
+
+            <TextView
+                android:id="@+id/tv_tabmenu3"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+
+                android:layout_weight=".2"
+                android:background="@color/light_gray"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                android:text="Bill Amt"
+                android:textColor="@color/White"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/very_light_gray" />
+
+            <TextView
+                android:id="@+id/tv_tabmenu5"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+
+                android:layout_weight=".2"
+                android:background="@color/light_gray"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                android:hint="Bal Amt"
+                android:padding="1dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/White"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/very_light_gray" />
+
+            <TextView
+                android:id="@+id/tv_tabmenu4"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+
+                android:layout_weight=".2"
+                android:background="@color/light_gray"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                android:text="Map Amt"
+                android:textColor="@color/White"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/very_light_gray" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+
+                android:layout_weight=".2"
+                android:background="@color/light_gray"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                android:hint="Map Bill"
+                android:padding="1dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/White"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:id="@+id/listr_btn_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/listr_btn_wrapper1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent_background"
+                android:orientation="vertical">
+
+
+                <android.support.v4.widget.SwipeRefreshLayout
+                    android:id="@+id/srl_refresh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rcv_pendingBillList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </android.support.v7.widget.RecyclerView>
+                </android.support.v4.widget.SwipeRefreshLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/very_light_gray" />
+
+                <LinearLayout
+                    android:id="@+id/lt_empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_empty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="There is no pending bills for this Customer...!"
+                        android:textSize="30dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lt_save"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/rectangle_darg_gray"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight=".4"
+            android:background="@drawable/rectangle_light_gray"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/iv_save"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:padding="5dp"
+
+                app:srcCompat="@drawable/ic_sd_storage_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="@drawable/rectangle_light_gray"
+            android:fontFamily="@font/raleway"
+            android:gravity="left"
+            android:inputType="textCapWords"
+            android:text="Save"
+
+            android:textColor="@color/darkblue"
+            android:textSize="@dimen/text_size_xx" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/listr_text_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.50"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/listr_tv_title1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Product Name"
+                android:textColor="@color/darkblue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_title2"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Brand"
+                android:textColor="@color/darkblue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_title3"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Category"
+                android:textColor="@color/darkblue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_title4"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="SPANCOP Status"
+                android:textColor="@color/darkblue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_title5"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Annual Opportunity"
+                android:textColor="@color/darkblue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_title6"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Type"
+                android:textColor="@color/darkblue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_title7"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Competing Brand"
+                android:textColor="@color/darkblue"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.50"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/listr_tv_prod_name"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="ALEXIA S4 A 209"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_brand"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Shell"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_category"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Engine Oil"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_spancop"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Customer"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_annual_opty"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="9500"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_type"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Project"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listr_tv_competing_brand"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="left|center_vertical"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Indian Oil"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+<!--     <LinearLayout
+        android:id="@+id/listr_btn_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/listr_text_wrapper"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/MENU"
+            layout="@layout/tab_menu" />
+    </LinearLayout> -->
+
+</RelativeLayout>

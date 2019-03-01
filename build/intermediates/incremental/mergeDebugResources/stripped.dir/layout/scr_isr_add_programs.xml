@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/SCREEN_HEADER"
+            layout="@layout/titlebar" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <LinearLayout
+            android:id="@+id/wrapper_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btnLogin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+
+                    android:fontFamily="@font/raleway"
+                    android:singleLine="true"
+                    android:text="@string/title"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight=".6"
+                    android:background="@drawable/rectangle_light_gray"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway"
+                    android:hint="@string/title"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="100"
+                    android:minHeight="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="@color/veryDrakGray"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/text_size_xiv" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight=".4"
+
+                    android:fontFamily="@font/raleway"
+                    android:singleLine="true"
+                    android:text="@string/type"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/et_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight=".6"
+                    android:background="@drawable/rectangle_light_gray"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway"
+                    android:gravity="left|center_vertical"
+                    android:hint="@string/type"
+                    android:maxLength="100"
+                    android:minHeight="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="@color/veryDrakGray"
+
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/text_size_xiv" />
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight=".4"
+
+                    android:fontFamily="@font/raleway"
+                    android:singleLine="true"
+                    android:text="@string/description"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_description"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight=".6"
+                    android:background="@drawable/rectangle_light_gray"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway"
+                    android:hint="@string/description"
+                    android:inputType="textCapSentences"
+                    android:minHeight="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="@color/veryDrakGray"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/text_size_xiv" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_cname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight=".4"
+
+                    android:fontFamily="@font/raleway"
+                    android:singleLine="true"
+                    android:text="@string/customer_name"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/et_customername"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight=".6"
+                    android:background="@drawable/rectangle_light_gray"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway"
+                    android:gravity="left|center_vertical"
+                    android:hint="@string/customer_name"
+                    android:maxLength="100"
+                    android:minHeight="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/veryDrakGray"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/text_size_xiv" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".4"
+                    android:fontFamily="@font/raleway"
+                    android:text="@string/start_date_time"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_startdate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight=".6"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/et_startdate"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0.4dp"
+                        android:background="@drawable/rectangle_light_gray"
+                        android:ems="10"
+                        android:fontFamily="@font/opensans_light"
+                        android:gravity="left|center_vertical"
+                        android:hint="@string/start_date"
+                        android:minHeight="40dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text=""
+                        android:textColor="@color/veryDrakGray"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/text_size_xiv" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_starttime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight=".6"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/et_starttime"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0.6dp"
+                        android:background="@drawable/rectangle_light_gray"
+                        android:ems="10"
+                        android:fontFamily="@font/opensans_light"
+                        android:gravity="left|center_vertical"
+                        android:hint="@string/start_time"
+                        android:minHeight="40dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text=""
+                        android:textColor="@color/veryDrakGray"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/text_size_xiv" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+                    android:layout_weight=".4"
+                    android:fontFamily="@font/raleway"
+                    android:text="@string/end_date_time"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_enddate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight=".6"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/et_enddate"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0.4dp"
+                        android:background="@drawable/rectangle_light_gray"
+                        android:ems="10"
+                        android:fontFamily="@font/opensans_light"
+                        android:gravity="left|center_vertical"
+                        android:hint="@string/end_date"
+                        android:minHeight="40dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text=""
+                        android:textColor="@color/veryDrakGray"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/text_size_xiv" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_endtime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight=".6"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/et_endtime"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0.6dp"
+                        android:background="@drawable/rectangle_light_gray"
+                        android:ems="10"
+                        android:fontFamily="@font/opensans_light"
+                        android:gravity="left|center_vertical"
+                        android:hint="@string/end_time"
+                        android:minHeight="40dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text=""
+                        android:textColor="@color/veryDrakGray"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/text_size_xiv" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight=".4"
+
+                    android:fontFamily="@font/raleway"
+                    android:singleLine="true"
+                    android:text="Location"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_location"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight=".6"
+                    android:background="@drawable/rectangle_light_gray"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway"
+                    android:hint="@string/location"
+                    android:inputType="textCapSentences"
+                    android:maxLength="100"
+                    android:minHeight="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="@color/veryDrakGray"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/text_size_xiv" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btnLogin1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+
+                    android:fontFamily="@font/raleway"
+                    android:singleLine="true"
+                    android:text="@string/purpose"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_purpose"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight=".6"
+                    android:background="@drawable/rectangle_light_gray"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway"
+                    android:hint="@string/purpose"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:minHeight="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="false"
+                    android:text=""
+                    android:textColor="@color/veryDrakGray"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/text_size_xiv" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btnLogin2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+
+                    android:fontFamily="@font/raleway"
+                    android:singleLine="true"
+                    android:text="@string/objective"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_objective"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight=".6"
+                    android:background="@drawable/rectangle_light_gray"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway"
+                    android:hint="@string/objective"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:minHeight="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="false"
+                    android:text=""
+                    android:textColor="@color/veryDrakGray"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/text_size_xiv" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll24"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btnLogin4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+
+                    android:fontFamily="@font/raleway"
+                    android:singleLine="true"
+                    android:text="@string/premise"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_plan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight=".6"
+                    android:background="@drawable/rectangle_light_gray"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway"
+                    android:hint="@string/premise"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:minHeight="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="false"
+                    android:text=""
+                    android:textColor="@color/veryDrakGray"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/text_size_xiv" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll25"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btnLogin5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+
+                    android:fontFamily="@font/raleway"
+                    android:singleLine="true"
+                    android:text="@string/strategy"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_strategy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight=".6"
+                    android:background="@drawable/rectangle_light_gray"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway"
+                    android:hint="@string/strategy"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:minHeight="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="false"
+                    android:text=""
+                    android:textColor="@color/veryDrakGray"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/text_size_xiv" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll26"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btnLogin6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+
+                    android:fontFamily="@font/raleway"
+                    android:singleLine="true"
+                    android:text="@string/anticipate"
+                    android:textColor="@color/darkblue"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_anticipate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight=".6"
+                    android:background="@drawable/rectangle_light_gray"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway"
+                    android:hint="@string/anticipate"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:minHeight="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="false"
+                    android:text=""
+                    android:textColor="@color/veryDrakGray"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/text_size_xiv" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight=".4"
+
+                        android:fontFamily="@font/raleway"
+                        android:singleLine="true"
+                        android:text="@string/competition_pricing"
+                        android:textColor="@color/darkblue"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_competition_pricing"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0.5dp"
+                        android:layout_weight=".6"
+                        android:background="@drawable/rectangle_light_gray"
+                        android:ems="10"
+                        android:fontFamily="@font/raleway"
+                        android:hint="@string/competition_pricing"
+                        android:inputType="textCapSentences"
+                        android:minHeight="40dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text=""
+                        android:textColor="@color/veryDrakGray"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/text_size_xiv" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight=".4"
+
+                        android:fontFamily="@font/raleway"
+                        android:singleLine="true"
+                        android:text="@string/feedback"
+                        android:textColor="@color/darkblue"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_feedback"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0.5dp"
+                        android:layout_weight=".6"
+                        android:background="@drawable/rectangle_light_gray"
+                        android:ems="10"
+                        android:fontFamily="@font/raleway"
+                        android:gravity="left|center_vertical"
+                        android:hint="@string/feedback"
+                        android:maxLength="100"
+                        android:minHeight="40dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/veryDrakGray"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/text_size_xiv" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+
+        android:layout_gravity="bottom"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:inputType="textCapWords"
+        android:text="Add"
+        android:textColor="@color/darkblue"
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/btnAddProg"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rectangle_darg_gray"
+        android:gravity="center"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight=".4"
+            android:background="@drawable/rectangle_light_gray"
+            android:gravity="right">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:padding="5dp"
+
+                app:srcCompat="@drawable/ic_sd_storage_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_AddCol"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="@drawable/rectangle_light_gray"
+            android:fontFamily="@font/raleway"
+            android:gravity="left"
+            android:inputType="textCapWords"
+            android:text="@string/save"
+            android:textColor="@color/darkblue"
+            android:textSize="@dimen/text_size_xx" />
+    </LinearLayout>
+</LinearLayout>

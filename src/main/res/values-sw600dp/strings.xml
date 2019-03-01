@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nointernet">No internet !</string>
+    <string name="today_mtd_incentive_points">Today\'s Incentive Points</string>
+    <string name="opening">Opening</string>
+    <string name="closing">Closing</string>
+    <string name="ok">OK</string>
+    <string name="checkin">CheckIn</string>
+    <string name="removed">Removed</string>
+</resources>

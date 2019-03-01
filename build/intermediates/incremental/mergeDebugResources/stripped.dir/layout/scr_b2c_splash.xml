@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashbackground2"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:id="@+id/splah_img"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/isteer" />
+
+        <LinearLayout
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="i"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/isteerGrayDark"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" S t e e r"
+                android:textColor="@color/isteercolor"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="260dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/isteercolor" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="intelligently"
+                android:textSize="@dimen/text_size_xx"
+                android:fontFamily="@font/calibri_bold"
+                android:textStyle="bold"
+                 android:textColor="@color/isteerGrayDark"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" Steer"
+                android:fontFamily="@font/calibri_bold"
+                android:textColor="@color/isteercolor"
+                android:textSize="@dimen/text_size_xx"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text=" your"
+                android:fontFamily="@font/calibri_bold"
+                android:textSize="@dimen/text_size_xx"
+                android:textStyle="bold"
+                 android:textColor="@color/isteerGrayDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text=" business "
+                android:fontFamily="@font/calibri_bold"
+                android:textSize="@dimen/text_size_xx"
+                android:textStyle="bold"
+                 android:textColor="@color/isteerGrayDark"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:visibility="visible"
+             >
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+<ImageView
+    android:visibility="gone"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:padding="8dp"
+    app:srcCompat="@drawable/company"/>
+            <EditText
+                android:id="@+id/et_company_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company Name"
+                android:background="@drawable/rectangle_light_gray"
+                android:minHeight="45dp"
+                android:paddingLeft="5dp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_darg_gray"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"></LinearLayout>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".2"
+                    android:layout_height="60dp"
+                    android:padding="2dp"
+                    android:layout_gravity="right|center"
+                    app:srcCompat="@drawable/login" />
+                <TextView
+                    android:id="@+id/txt_Register"
+                    android:text="Register"
+                    android:layout_width="0dp"
+                    android:layout_weight=".6"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:gravity="left|center"
+                    android:inputType="textCapWords"
+                    android:textColor="@color/darkblue"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/scr_main_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/screen_header_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true" >
+
+            <include
+                android:id="@+id/SCREEN_HEADER"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/titlebar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/map_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnChangeLoc"
+            android:layout_below="@+id/screen_header_wrapper"
+            android:orientation="vertical" >
+
+            <fragment
+                android:id="@+id/mapview"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <Button
+            android:fontFamily="@font/raleway"
+            android:id="@+id/btnChangeLoc"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/rectangle_full_light_gray"
+            android:inputType="textCapWords"
+            android:text="Request Location Change"
+            android:textColor="@color/darkblue"
+            android:textSize="@dimen/text_size_xviii" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+
+    <dimen name="text_size_xii">16sp</dimen>
+    <dimen name="text_size_xiv">18sp</dimen>
+    <dimen name="text_size_xvi">20sp</dimen>
+    <dimen name="text_size_xviii">22sp</dimen>
+    <dimen name="text_size_xx">24sp</dimen>
+    <dimen name="button_width">250sp</dimen>
+    <dimen name="button_height">60sp</dimen>
+    <dimen name="image_size">40sp</dimen>
+    <dimen name="margin_top_gap">10sp</dimen>
+
+</resources>

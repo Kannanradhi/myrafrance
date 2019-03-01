@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/listrow_customer.xml",
+        "source": "/home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/res/layout/listrow_customer.xml"
+    },
+    {
+        "merged": "/home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/listrow_place_order.xml",
+        "source": "/home/lenovo/Android_projects/amshuhu_new/version_44/iSteerSalesB2C/src/main/res/layout/listrow_place_order.xml"
+    }
+]
